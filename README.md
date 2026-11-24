@@ -138,7 +138,7 @@ KiraTuber/
 ---
 
 <details>
-<summary><strong>🇬🇧 English Summary & Quick Start (Click to Expand)</strong></summary>
+<summary><strong>Summary & Quick Start (Click to Expand)</strong></summary>
 
 <br>
 
