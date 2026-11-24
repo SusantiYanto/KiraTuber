@@ -138,18 +138,18 @@ KiraTuber/
 ---
 
 <details>
-<summary><strong>🇮🇩 Ringkasan Bahasa Indonesia &amp; Mulai Cepat (Klik untuk Membuka)</strong></summary>
+<summary><strong>🇬🇧 English Summary & Quick Start (Click to Expand)</strong></summary>
 
 <br>
 
-**KiraTuber** adalah aplikasi **Anime PNGTuber Broadcast Studio** 2D super ringan tanpa *bloatware* yang dibangun dengan **Rust** dan **Tauri v2**. Dirancang untuk VTuber, *gamer*, dan *streamer* yang menginginkan avatar reaktif suara secara responsif tanpa beban CPU/GPU dari *face-tracking* kamera.
+**KiraTuber** is an ultra-lightweight, bloatware-free 2D **Anime PNGTuber Broadcast Studio** built with **Rust** and **Tauri v2**. It is designed for VTubers, gamers, and streamers who want a voice-reactive avatar without the CPU/GPU load of camera-based face tracking.
 
-### Keunggulan Utama
-- **Ukuran Ekstra Ringan:** Installer hanya ~1.1 MB, animasi 60 FPS berbasis komposisi GPU, serta penyimpanan aset transaksi tunggal di IndexedDB.
-- **Sistem Avatar 3 Pose:** Mendukung gambar **Diam**, **Kedip Otomatis** (dengan jeda acak alami anti-kaku &amp; *double-blink* sesekali), dan **Bicara**, lengkap dengan gerakan napas serta goyang halus.
-- **Anti-Freeze OBS Saat Game Fullscreen:** Dioptimalkan agar animasi tetap berjalan mulus di OBS Window Capture meskipun jendela aplikasi tertutup oleh *game fullscreen*.
-- **Dek Ekspresi &amp; Gerakan Spesial:** 6 slot ekspresi berikon emoji kustom + 9 gerakan panggung prosedural dengan *hotkey* yang bebas diatur.
-- **Dukungan Bahasa Indonesia Penuh:** Ubah bahasa antarmuka kapan saja melalui menu **⚙️ Stage &amp; App → Theme &amp; language**.
+### Key Features
+- **Extra Lightweight:** The installer is only ~1.1 MB, with 60 FPS GPU-composited animation and single-transaction asset storage in IndexedDB.
+- **3-Pose Avatar System:** Supports **Idle**, **Auto-Blink** (with natural random intervals to avoid stiffness, plus an occasional double-blink), and **Talking** images, complete with breathing motion and subtle sway.
+- **OBS Anti-Freeze During Fullscreen Games:** Optimized so animation keeps running smoothly in OBS Window Capture even when the app window is covered by a fullscreen game.
+- **Expression Deck & Special Motions:** 6 expression slots with custom emoji icons + 9 procedural stage motions with freely configurable hotkeys.
+- **Full Indonesian Language Support:** Change the interface language at any time via the **⚙️ Stage & App → Theme & language** menu.
 
 </details>
 
