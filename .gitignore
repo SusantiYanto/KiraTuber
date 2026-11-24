@@ -1,0 +1,9 @@
+node_modules/
+src-tauri/target/
+src-tauri/gen/
+release-github/
+.qodo/
+design/
+2d.txt
+UPLOAD_KE_GITHUB.bat
+publish-github.ps1

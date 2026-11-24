@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="KiraTuber 3-Pose Pipeline and 4 Studio Themes">
+  <rect width="1200" height="280" rx="16" fill="#090e1a" stroke="#243a66" stroke-width="2"/>
+
+  <!-- Left Panel: 3-Pose Reactive Avatar System -->
+  <g transform="translate(24, 22)">
+    <text x="0" y="20" fill="#00e5ff" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="16" font-weight="700" letter-spacing="1.2">▸ SISTEM 3 POSE OTOMATIS (IDLE · BLINK · TALK)</text>
+
+    <!-- Slot 1: Diam -->
+    <rect x="0" y="38" width="176" height="196" rx="12" fill="#111a2e" stroke="#2c4475" stroke-width="2"/>
+    <rect x="14" y="52" width="66" height="22" rx="5" fill="#1c2c4c"/>
+    <text x="47" y="67" text-anchor="middle" fill="#93add4" font-family="Consolas, monospace" font-size="11" font-weight="700">01 DIAM</text>
+    <circle cx="88" cy="132" r="42" fill="#fff2ea" stroke="#182232" stroke-width="4"/>
+    <ellipse cx="73" cy="128" rx="6" ry="8" fill="#0ea5e9" stroke="#182232" stroke-width="3"/>
+    <ellipse cx="103" cy="128" rx="6" ry="8" fill="#0ea5e9" stroke="#182232" stroke-width="3"/>
+    <path d="M79 148 Q88 154 97 148" fill="none" stroke="#182232" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="88" y="204" text-anchor="middle" fill="#f4f8ff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Napas &amp; Goyang</text>
+    <text x="88" y="222" text-anchor="middle" fill="#8ea8cf" font-family="'Segoe UI', sans-serif" font-size="11.5">Gerak halus saat diam</text>
+
+    <!-- Arrow 1 -->
+    <text x="190" y="142" text-anchor="middle" fill="#00e5ff" font-family="Consolas, monospace" font-size="20" font-weight="700">⇄</text>
+
+    <!-- Slot 2: Kedip -->
+    <rect x="204" y="38" width="176" height="196" rx="12" fill="#131f38" stroke="#00e5ff" stroke-width="2"/>
+    <rect x="218" y="52" width="74" height="22" rx="5" fill="#00e5ff" fill-opacity="0.18"/>
+    <text x="255" y="67" text-anchor="middle" fill="#00e5ff" font-family="Consolas, monospace" font-size="11" font-weight="700">02 KEDIP</text>
+    <circle cx="292" cy="132" r="42" fill="#fff2ea" stroke="#182232" stroke-width="4"/>
+    <path d="M270 130 Q277 136 284 130" fill="none" stroke="#182232" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M300 130 Q307 136 314 130" fill="none" stroke="#182232" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M283 148 Q292 154 301 148" fill="none" stroke="#182232" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="292" y="204" text-anchor="middle" fill="#f4f8ff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Auto-Blink Alami</text>
+    <text x="292" y="222" text-anchor="middle" fill="#8ea8cf" font-family="'Segoe UI', sans-serif" font-size="11.5">Interval acak anti-kaku</text>
+
+    <!-- Arrow 2 -->
+    <text x="394" y="142" text-anchor="middle" fill="#ff2e7e" font-family="Consolas, monospace" font-size="20" font-weight="700">⚡</text>
+
+    <!-- Slot 3: Bicara -->
+    <rect x="408" y="38" width="176" height="196" rx="12" fill="#1a142d" stroke="#ff2e7e" stroke-width="2"/>
+    <rect x="422" y="52" width="82" height="22" rx="5" fill="#ff2e7e" fill-opacity="0.22"/>
+    <text x="463" y="67" text-anchor="middle" fill="#ff7aa8" font-family="Consolas, monospace" font-size="11" font-weight="700">03 BICARA</text>
+    <circle cx="496" cy="128" r="44" fill="#fff2ea" stroke="#182232" stroke-width="4"/>
+    <ellipse cx="481" cy="122" rx="6.5" ry="9" fill="#ff2e7e" stroke="#182232" stroke-width="3"/>
+    <ellipse cx="511" cy="122" rx="6.5" ry="9" fill="#ff2e7e" stroke="#182232" stroke-width="3"/>
+    <ellipse cx="496" cy="146" rx="10" ry="9" fill="#ff5688" stroke="#182232" stroke-width="3"/>
+    <text x="496" y="204" text-anchor="middle" fill="#f4f8ff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Reaktif Mikrofon</text>
+    <text x="496" y="222" text-anchor="middle" fill="#8ea8cf" font-family="'Segoe UI', sans-serif" font-size="11.5">Lompat, getar &amp; skala</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="632" y1="24" x2="632" y2="256" stroke="#243a66" stroke-width="2"/>
+
+  <!-- Right Panel: 4 Built-in Studio Themes -->
+  <g transform="translate(658, 22)">
+    <text x="0" y="20" fill="#ff7aa8" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="16" font-weight="700" letter-spacing="1.2">▸ 4 PRESET TEMA STUDIO BROADCAST</text>
+
+    <!-- Theme 1: Anime Dark -->
+    <g transform="translate(0, 38)">
+      <rect width="250" height="92" rx="12" fill="#10182b" stroke="#00e5ff" stroke-width="2"/>
+      <circle cx="28" cy="30" r="10" fill="#00e5ff"/><circle cx="54" cy="30" r="10" fill="#ff2e7e"/><circle cx="80" cy="30" r="10" fill="#00f5a0"/>
+      <text x="18" y="64" fill="#f4f8ff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">🌙 Anime Gelap (Default)</text>
+      <text x="18" y="81" fill="#93add4" font-family="Consolas, monospace" font-size="11">Sky Cyan · Sakura Neon</text>
+    </g>
+
+    <!-- Theme 2: Schale Light -->
+    <g transform="translate(266, 38)">
+      <rect width="250" height="92" rx="12" fill="#e6f0fb" stroke="#0095ff" stroke-width="2"/>
+      <circle cx="28" cy="30" r="10" fill="#0095ff"/><circle cx="54" cy="30" r="10" fill="#ff2970"/><circle cx="80" cy="30" r="10" fill="#00b87c"/>
+      <text x="18" y="64" fill="#0d1c30" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">☀️ Schale Cerah</text>
+      <text x="18" y="81" fill="#435d7d" font-family="Consolas, monospace" font-size="11">Clean Tactical Ice-Slate</text>
+    </g>
+
+    <!-- Theme 3: Starlight Idol -->
+    <g transform="translate(0, 142)">
+      <rect width="250" height="92" rx="12" fill="#16112b" stroke="#ff2a7a" stroke-width="2"/>
+      <circle cx="28" cy="30" r="10" fill="#ff2a7a"/><circle cx="54" cy="30" r="10" fill="#00f0ff"/><circle cx="80" cy="30" r="10" fill="#ffd000"/>
+      <text x="18" y="64" fill="#f9f5ff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">🎤 Idol Malam</text>
+      <text x="18" y="81" fill="#b0a3d4" font-family="Consolas, monospace" font-size="11">Starlight Stage Magenta</text>
+    </g>
+
+    <!-- Theme 4: Cyber ZZZ -->
+    <g transform="translate(266, 142)">
+      <rect width="250" height="92" rx="12" fill="#15181f" stroke="#d4ff00" stroke-width="2"/>
+      <circle cx="28" cy="30" r="10" fill="#d4ff00"/><circle cx="54" cy="30" r="10" fill="#ff4d00"/><circle cx="80" cy="30" r="10" fill="#9eff00"/>
+      <text x="18" y="64" fill="#f7f8fa" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">⚡ Cyber ZZZ</text>
+      <text x="18" y="81" fill="#9da6b8" font-family="Consolas, monospace" font-size="11">Acid Lime · Signal Orange</text>
+    </g>
+  </g>
+</svg>

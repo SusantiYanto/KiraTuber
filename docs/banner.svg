@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="KiraTuber — Anime PNGTuber Studio">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b15"/>
+      <stop offset="55%" stop-color="#0d162c"/>
+      <stop offset="100%" stop-color="#141029"/>
+    </linearGradient>
+    <linearGradient id="cyanPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#ff2e7e"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#e2f6ff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="vuGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5a0"/>
+      <stop offset="60%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#ff2e7e"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#00e5ff" fill-opacity="0.14"/>
+    </pattern>
+    <pattern id="stripes" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="14" height="28" fill="#00e5ff"/>
+      <rect x="14" width="14" height="28" fill="#ff2e7e"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Frame -->
+  <rect width="1200" height="380" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#dots)"/>
+  <circle cx="980" cy="70" r="220" fill="#00e5ff" fill-opacity="0.08"/>
+  <circle cx="220" cy="340" r="200" fill="#ff2e7e" fill-opacity="0.09"/>
+
+  <!-- Top Broadcast Hazard Bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#stripes)"/>
+  <rect x="2" y="2" width="1196" height="376" rx="17" fill="none" stroke="#243a66" stroke-width="2"/>
+
+  <!-- Left HUD Corner Brackets -->
+  <path d="M26 52 L26 28 L52 28" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 328 L26 352 L52 352" fill="none" stroke="#ff2e7e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1174 52 L1174 28 L1148 28" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1174 328 L1174 352 L1148 352" fill="none" stroke="#ff2e7e" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left Content Column -->
+  <g transform="translate(64, 58)">
+    <!-- Brand Mark + ON AIR Pill -->
+    <g transform="skewX(-10)">
+      <rect x="0" y="0" width="44" height="44" rx="9" fill="url(#cyanPink)" stroke="#ffffff" stroke-width="2"/>
+      <text x="22" y="30" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="22" font-weight="800">✦</text>
+
+      <rect x="58" y="7" width="106" height="30" rx="6" fill="#ff2e7e" stroke="#ffffff" stroke-width="1.8"/>
+      <circle cx="75" cy="22" r="4.5" fill="#ffffff"/>
+      <text x="118" y="27" text-anchor="middle" fill="#ffffff" font-family="Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1">ON AIR</text>
+
+      <rect x="174" y="7" width="196" height="30" rx="6" fill="#13203b" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="272" y="27" text-anchor="middle" fill="#00e5ff" font-family="Consolas, monospace" font-size="12.5" font-weight="700" letter-spacing="0.8">TAURI V2 · RUST ENGINE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="116" fill="url(#titleGrad)" font-family="Bahnschrift, 'Chakra Petch', 'Segoe UI', sans-serif" font-size="68" font-weight="800" letter-spacing="2.5">KIRATUBER</text>
+    <text x="2" y="152" fill="#a8c2e8" font-family="'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="600">Anime PNGTuber Broadcast Studio — Ringan, Responsif, &amp; Siap OBS</text>
+
+    <!-- Live VU Meter Mock -->
+    <rect x="0" y="176" width="540" height="22" rx="6" fill="#060a13" stroke="#293e6a" stroke-width="2"/>
+    <rect x="3" y="179" width="405" height="16" rx="4" fill="url(#vuGrad)"/>
+    <g fill="#0c1426">
+      <rect x="48" y="178" width="4" height="18"/><rect x="96" y="178" width="4" height="18"/>
+      <rect x="144" y="178" width="4" height="18"/><rect x="192" y="178" width="4" height="18"/>
+      <rect x="240" y="178" width="4" height="18"/><rect x="288" y="178" width="4" height="18"/>
+      <rect x="336" y="178" width="4" height="18"/><rect x="384" y="178" width="4" height="18"/>
+      <rect x="432" y="178" width="4" height="18"/><rect x="480" y="178" width="4" height="18"/>
+    </g>
+    <rect x="164" y="174" width="4" height="26" rx="2" fill="#ffffff"/>
+
+    <!-- Feature Chips -->
+    <g transform="translate(0, 222)" font-family="Consolas, 'Segoe UI', monospace" font-size="13" font-weight="700">
+      <rect x="0" y="0" width="154" height="36" rx="8" fill="#111c33" stroke="#00f5a0" stroke-width="1.8"/>
+      <text x="77" y="23" text-anchor="middle" fill="#00f5a0">⚡ 1.1 MB SETUP</text>
+
+      <rect x="166" y="0" width="194" height="36" rx="8" fill="#111c33" stroke="#00e5ff" stroke-width="1.8"/>
+      <text x="263" y="23" text-anchor="middle" fill="#00e5ff">👁️ 3-POSE AUTO BLINK</text>
+
+      <rect x="372" y="0" width="184" height="36" rx="8" fill="#111c33" stroke="#ff2e7e" stroke-width="1.8"/>
+      <text x="464" y="23" text-anchor="middle" fill="#ff7aa8">🎮 OBS ANTI-FREEZE</text>
+
+      <rect x="568" y="0" width="168" height="36" rx="8" fill="#111c33" stroke="#ffe600" stroke-width="1.8"/>
+      <text x="652" y="23" text-anchor="middle" fill="#ffe600">🪟 WIN &amp; LINUX</text>
+    </g>
+  </g>
+
+  <!-- Right Anime Studio Mascot Card -->
+  <g transform="translate(835, 36)">
+    <rect x="0" y="0" width="310" height="308" rx="18" fill="#0f182c" stroke="#00e5ff" stroke-width="2.5"/>
+    <rect x="14" y="14" width="282" height="236" rx="12" fill="#00b140" fill-opacity="0.18" stroke="#00f5a0" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <text x="28" y="36" fill="#00f5a0" font-family="Consolas, monospace" font-size="11.5" font-weight="700">CHROMA STAGE · 60 FPS</text>
+
+    <!-- Neko Chibi Avatar Vector -->
+    <g transform="translate(55, 28) scale(0.52)">
+      <path d="M84 196 C74 275 95 344 132 362 L268 362 C305 344 326 275 316 196 C312 118 265 82 200 82 C135 82 88 118 84 196 Z" fill="#d84b78" stroke="#182232" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M104 128 L124 62 L168 106 Z" fill="#ffffff" stroke="#182232" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M118 116 L130 78 L156 104 Z" fill="#38bdf8"/>
+      <path d="M296 128 L276 62 L232 106 Z" fill="#ffffff" stroke="#182232" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M282 116 L270 78 L244 104 Z" fill="#38bdf8"/>
+      <path d="M84 204 C84 114 134 78 200 78 C266 78 316 114 316 204" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+      <path d="M84 204 C84 114 134 78 200 78 C266 78 316 114 316 204" fill="none" stroke="#182232" stroke-width="7" stroke-linecap="round"/>
+      <path d="M116 384 C122 326 154 304 200 304 C246 304 278 326 284 384 Z" fill="#24344d" stroke="#182232" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M168 312 L200 344 L232 312" fill="#ffffff" stroke="#182232" stroke-width="6" stroke-linejoin="round"/>
+      <polygon points="200,336 178,324 182,350" fill="#38bdf8" stroke="#182232" stroke-width="4"/>
+      <polygon points="200,336 222,324 218,350" fill="#38bdf8" stroke="#182232" stroke-width="4"/>
+      <circle cx="200" cy="337" r="7" fill="#ffffff" stroke="#182232" stroke-width="4"/>
+      <path d="M108 196 C108 134 146 108 200 108 C254 108 292 134 292 196 C292 266 254 312 200 312 C146 312 108 266 108 196 Z" fill="#fff2ea" stroke="#182232" stroke-width="8"/>
+      <ellipse cx="132" cy="252" rx="18" ry="9" fill="#ff8fab" opacity="0.65"/>
+      <ellipse cx="268" cy="252" rx="18" ry="9" fill="#ff8fab" opacity="0.65"/>
+      <path d="M130 186 Q152 176 172 185" fill="none" stroke="#182232" stroke-width="5" stroke-linecap="round"/>
+      <path d="M228 185 Q248 176 270 186" fill="none" stroke="#182232" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="152" cy="218" rx="21" ry="25" fill="#182232"/>
+      <ellipse cx="152" cy="222" rx="16" ry="19" fill="#0ea5e9"/>
+      <circle cx="145" cy="210" r="7" fill="#ffffff"/><circle cx="160" cy="229" r="3.5" fill="#ffffff"/>
+      <ellipse cx="248" cy="218" rx="21" ry="25" fill="#182232"/>
+      <ellipse cx="248" cy="222" rx="16" ry="19" fill="#0ea5e9"/>
+      <circle cx="241" cy="210" r="7" fill="#ffffff"/><circle cx="256" cy="229" r="3.5" fill="#ffffff"/>
+      <path d="M174 266 Q200 258 226 266 Q230 302 200 305 Q170 302 174 266 Z" fill="#6b1d3a" stroke="#182232" stroke-width="6" stroke-linejoin="round"/>
+      <ellipse cx="200" cy="291" rx="18" ry="10" fill="#ff7aa2"/>
+      <path d="M98 206 C96 132 140 90 200 90 C260 90 304 132 302 206 C288 164 268 144 250 182 C236 146 218 138 202 184 C186 142 166 142 150 182 C134 146 114 164 98 206 Z" fill="#ff85a9" stroke="#182232" stroke-width="7.5" stroke-linejoin="round"/>
+      <rect x="74" y="190" width="30" height="58" rx="14" fill="#ffffff" stroke="#182232" stroke-width="7"/>
+      <rect x="82" y="203" width="10" height="32" rx="5" fill="#38bdf8"/>
+      <rect x="296" y="190" width="30" height="58" rx="14" fill="#ffffff" stroke="#182232" stroke-width="7"/>
+      <rect x="308" y="203" width="10" height="32" rx="5" fill="#38bdf8"/>
+      <path d="M92 242 Q108 286 154 286" fill="none" stroke="#182232" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="157" cy="286" r="8" fill="#ff5688" stroke="#182232" stroke-width="5"/>
+    </g>
+
+    <!-- Bottom Keycap Bar inside Card -->
+    <g transform="translate(14, 262)" font-family="Consolas, monospace" font-size="12" font-weight="700">
+      <rect x="0" y="0" width="64" height="32" rx="7" fill="#182440" stroke="#00e5ff" stroke-width="1.8"/>
+      <text x="32" y="20" text-anchor="middle" fill="#00e5ff">[Z] 😮</text>
+
+      <rect x="73" y="0" width="64" height="32" rx="7" fill="#182440" stroke="#ff2e7e" stroke-width="1.8"/>
+      <text x="105" y="20" text-anchor="middle" fill="#ff7aa8">[X] ✨</text>
+
+      <rect x="146" y="0" width="64" height="32" rx="7" fill="#182440" stroke="#00f5a0" stroke-width="1.8"/>
+      <text x="178" y="20" text-anchor="middle" fill="#00f5a0">[1] ⤴</text>
+
+      <rect x="219" y="0" width="63" height="32" rx="7" fill="#182440" stroke="#ffe600" stroke-width="1.8"/>
+      <text x="250" y="20" text-anchor="middle" fill="#ffe600">[H] HUD</text>
+    </g>
+  </g>
+</svg>
