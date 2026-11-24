@@ -4,65 +4,65 @@
 
 <br>
 
-[![Latest Release](https://img.shields.io/github/v/release/SusantiYanto/KiraTuber?style=for-the-badge&logo=github&label=Rilis&color=00e5ff&labelColor=0b1222)](https://github.com/SusantiYanto/KiraTuber/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/SusantiYanto/KiraTuber?style=for-the-badge&logo=github&label=Release&color=00e5ff&labelColor=0b1222)](https://github.com/SusantiYanto/KiraTuber/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20%7C%20Linux-ff2e7e?style=for-the-badge&logo=windows&labelColor=0b1222)](https://github.com/SusantiYanto/KiraTuber/releases/latest)
 [![Built With](https://img.shields.io/badge/Engine-Tauri%20v2%20%2B%20Rust-00f5a0?style=for-the-badge&logo=rust&labelColor=0b1222)](https://v2.tauri.app/)
-[![Installer Size](https://img.shields.io/badge/Ukuran%20Setup-1.12%20MB-ffe600?style=for-the-badge&labelColor=0b1222)](https://github.com/SusantiYanto/KiraTuber/releases/latest)
-[![License](https://img.shields.io/badge/Lisensi-MIT-a855f7?style=for-the-badge&labelColor=0b1222)](LICENSE)
+[![Installer Size](https://img.shields.io/badge/Setup%20Size-1.12%20MB-ffe600?style=for-the-badge&labelColor=0b1222)](https://github.com/SusantiYanto/KiraTuber/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-a855f7?style=for-the-badge&labelColor=0b1222)](LICENSE)
 
 <p>
-  <strong>Aplikasi Studio PNGTuber 2D super ringan bergaya Anime Broadcast HUD untuk OBS Studio, Discord, YouTube, &amp; Twitch.</strong><br>
-  Tanpa <em>tracking</em> kamera berat — cukup gunakan mikrofon, unggah ilustrasi PNG/WebP, dan siaran langsung dengan 60 FPS mulus.
+  <strong>An ultra-lightweight 2D PNGTuber Studio styled like an Anime Broadcast HUD for OBS Studio, Discord, YouTube, &amp; Twitch.</strong><br>
+  No heavy webcam tracking required — just plug in your microphone, upload PNG/WebP artwork, and go live at a silky-smooth 60 FPS.
 </p>
 
 <p>
-  <a href="https://github.com/SusantiYanto/KiraTuber/releases/latest"><strong>⬇ Unduh KiraTuber Terbaru</strong></a> ·
-  <a href="#-fitur-unggulan"><strong>✦ Fitur Unggulan</strong></a> ·
-  <a href="#-panduan-obs-studio--discord"><strong>🎥 Panduan OBS</strong></a> ·
-  <a href="#-pintasan-keyboard-bawaan"><strong>⌨️ Hotkey</strong></a> ·
-  <a href="#-membangun-dari-kode-sumber"><strong>🛠️ Build Source</strong></a>
+  <a href="https://github.com/SusantiYanto/KiraTuber/releases/latest"><strong>⬇ Download KiraTuber</strong></a> ·
+  <a href="#-key-features"><strong>✦ Key Features</strong></a> ·
+  <a href="#-obs-studio--discord-guide"><strong>🎥 OBS Guide</strong></a> ·
+  <a href="#-default-keyboard-shortcuts"><strong>⌨️ Hotkeys</strong></a> ·
+  <a href="#-building-from-source"><strong>🛠️ Build from Source</strong></a>
 </p>
 
 </div>
 
 ---
 
-## ✦ Sekilas Alur Kerja &amp; Tema Studio
+## ✦ Workflow &amp; Studio Themes at a Glance
 
 <p align="center">
-  <img src="docs/preview-workflow.svg" alt="Sistem 3 Pose & 4 Tema Studio KiraTuber" width="100%">
+  <img src="docs/preview-workflow.svg" alt="KiraTuber 3-Pose System & 4 Studio Themes" width="100%">
 </p>
 
 ---
 
-## 🚀 Fitur Unggulan
+## 🚀 Key Features
 
-| Kategori | Keunggulan Utama |
+| Category | Highlights |
 | :--- | :--- |
-| **⚡ Super Ringan (Rust + Tauri v2)** | Ukuran *installer* hanya **~1.1 MB** (*portable* **~3 MB**), animasi berbasis komposisi GPU (`translate3d` &amp; `scaleX`) tanpa *library* berat, hemat CPU &amp; RAM saat bermain *game* berat. |
-| **👁️ Sistem 3 Pose (`Diam` · `Kedip` · `Bicara`)** | Dilengkapi **Auto-Blink alami** (interval &amp; durasi dapat diatur + jeda waktu acak anti-kaku &amp; *double-blink* sesekali) serta gerakan napas dan goyang kiri-kanan halus saat karakter diam. |
-| **🎮 Anti-Freeze di OBS Saat Main Game** | Dioptimalkan khusus agar animasi karakter **tidak membeku di OBS Window Capture** meskipun jendela KiraTuber tertutup oleh *game fullscreen*. |
-| **🎙️ Deteksi Suara Presisi + Kalibrasi 2 Detik** | Indikator VU Meter *real-time*, *Noise Gate*, *Noise Reduction* mikrofon, serta tombol **Kalibrasi Noise Otomatis** cukup dengan diam selama 2 detik. |
-| **✨ Dek Ekspresi &amp; 9 Gerakan Spesial** | 6 slot ekspresi instan dengan ikon emoji kustom + 9 efek gerakan panggung (*Lompat*, *Goyang*, *Putar 2x*, *Pop*, *Gemetar*, *Menunduk*, *Melayang*, *Flash*, *Menari*) lengkap dengan *hotkey* bebas atur. |
-| **🖼️ Editor Foto Crop &amp; Rotasi Bawaan** | Potong rasio (`1:1`, `4:3`, `16:9`, potret, atau bebas) dan putar sudut gambar langsung di dalam aplikasi sebelum disimpan otomatis ke perangkat. |
-| **🎨 4 Tema Anime Broadcast + 2 Bahasa** | Tersedia 4 tema studio (*Anime Gelap*, *Schale Cerah*, *Idol Malam*, *Cyber ZZZ*) serta dukungan penuh **Bahasa Indonesia** &amp; **English**. |
+| **⚡ Ultra-Lightweight (Rust + Tauri v2)** | Tiny **~1.1 MB** installer (**~3 MB** portable), GPU-composited animations (`translate3d` &amp; `scaleX`) with zero bloated libraries — minimal CPU &amp; RAM usage while running demanding games. |
+| **👁️ 3-Pose System (`Idle` · `Blink` · `Talking`)** | Features **natural Auto-Blink** (adjustable interval &amp; duration + non-robotic random timing &amp; occasional double-blinks) alongside gentle idle breathing and smooth left-right sway. |
+| **🎮 OBS Anti-Freeze While Gaming** | Specially optimized so character animations **never freeze in OBS Window Capture**, even when the KiraTuber window is occluded behind fullscreen games. |
+| **🎙️ Precision Voice Detection + 2s Calibration** | Real-time VU Meter, adjustable *Noise Gate*, microphone *Noise Reduction*, and one-click **Auto-Calibrate Noise** — just stay quiet for 2 seconds. |
+| **✨ Emote Deck &amp; 9 Special Movements** | 6 instant expression slots with custom emoji icons + 9 procedural stage motions (*Jump*, *Sway*, *Spin Twice*, *Pop*, *Shake*, *Bow*, *Float Up*, *Flash*, *Dance*), all bound to customizable hotkeys. |
+| **🖼️ Built-In Crop &amp; Rotate Photo Editor** | Crop aspect ratios (`1:1`, `4:3`, `3:2`, `16:9`, portrait, or freeform) and fine-tune rotation angles directly inside the app before auto-saving locally to your device. |
+| **🎨 4 Anime Broadcast Themes + Bilingual UI** | Ships with 4 studio themes (*Anime Dark*, *Schale Light*, *Starlight Idol*, *Cyber ZZZ*) and full **English** &amp; **Bahasa Indonesia** language support. |
 
 ---
 
-## 📦 Unduh Paket Instalasi
+## 📦 Downloads
 
-Unduh berkas siap pakai pada halaman [**GitHub Releases**](https://github.com/SusantiYanto/KiraTuber/releases/latest):
+Grab the ready-to-use packages from the [**GitHub Releases**](https://github.com/SusantiYanto/KiraTuber/releases/latest) page:
 
 ### 🪟 Windows (Windows 10 &amp; Windows 11)
-| Paket | Berkas | Keterangan |
+| Package | File | Description |
 | :--- | :--- | :--- |
-| **Installer Utama (Rekomendasi)** | `KiraTuber_0.1.0_windows_x64-setup.exe` | Setup NSIS 64-bit ringan &amp; praktis (`1.12 MB`) |
-| **Windows MSI (64-bit)** | `KiraTuber_0.1.0_windows_x64.msi` | Paket instalasi standar MSI (`1.59 MB`) |
-| **Portable 64-bit** | `KiraTuber_0.1.0_windows_x64_portable.exe` / `.zip` | Langsung jalan tanpa instalasi |
-| **Windows 32-bit (`x86`)** | `KiraTuber_0.1.0_windows_x86-setup.exe` / `.msi` / `.zip` | Dukungan penuh untuk PC Windows 32-bit |
+| **Primary Installer (Recommended)** | `KiraTuber_0.1.0_windows_x64-setup.exe` | Lightweight &amp; convenient 64-bit NSIS setup (`1.12 MB`) |
+| **Windows MSI (64-bit)** | `KiraTuber_0.1.0_windows_x64.msi` | Standard 64-bit MSI installer package (`1.59 MB`) |
+| **Portable (64-bit)** | `KiraTuber_0.1.0_windows_x64_portable.exe` / `.zip` | Runs right out of the box with no installation |
+| **Windows 32-bit (`x86`)** | `KiraTuber_0.1.0_windows_x86-setup.exe` / `.msi` / `.zip` | Full support for 32-bit Windows PCs |
 
 ### 🐧 Linux (`x86_64` / `amd64`)
-| Distro / Format | Berkas | Perintah Instalasi / Menjalankan |
+| Distro / Format | File | Install / Run Command |
 | :--- | :--- | :--- |
 | **Ubuntu / Debian / Mint / Pop!_OS** | `KiraTuber_0.1.0_linux_amd64.deb` | `sudo apt install ./KiraTuber_0.1.0_linux_amd64.deb` |
 | **Fedora / RHEL / openSUSE** | `KiraTuber_0.1.0_linux_x86_64.rpm` | `sudo dnf install ./KiraTuber_0.1.0_linux_x86_64.rpm` |
@@ -71,88 +71,90 @@ Unduh berkas siap pakai pada halaman [**GitHub Releases**](https://github.com/Su
 
 ---
 
-## 🎥 Panduan OBS Studio &amp; Discord
+## 🎥 OBS Studio &amp; Discord Guide
 
-### Menampilkan Karakter Tanpa Latar di OBS Studio
-1. Buka **KiraTuber**, pilih mikrofon di tab **🎙️ Suara &amp; Gerak**, lalu klik **Mulai mikrofon**.
-2. Buka tab **⚙️ Layar &amp; App**, pilih latar **Hijau murni (pas untuk OBS)** atau **Transparan (tanpa latar)**.
-3. Tekan tombol **`H`** (atau klik ikon **`⇥`** di kanan atas) untuk menyembunyikan panel kontrol — panggung akan bersih 100% tanpa bayangan tepi.
-4. Di **OBS Studio**:
-   - Tambahkan **Sources → Window Capture** → pilih jendela **`[kiratuber.exe]: KiraTuber`**.
-   - Jika memakai latar hijau: klik kanan *source* → **Filters → `+` Chroma Key** (*Key Color Type: Green*).
-   - Jika memakai latar transparan: centang opsi *Allow Transparency* pada sumber tangkapan yang mendukung transparansi.
+> **💡 Language Tip:** To switch the app interface to English, open the **⚙️ Stage &amp; App** (*Layar &amp; App*) tab → **Theme &amp; language** (*Tema &amp; bahasa*), and select **English**.
 
-### Memakai Karakter sebagai Kamera di Discord / Zoom / Meet
-1. Siapkan tampilan karakter di **OBS Studio** seperti langkah di atas.
-2. Klik **Start Virtual Camera** di OBS Studio.
-3. Di **Discord → User Settings → Voice &amp; Video → Camera**, pilih **OBS Virtual Camera**.
+### Capturing Your Avatar Without a Background in OBS Studio
+1. Open **KiraTuber**, select your audio input under the **🎙️ Mic &amp; Motion** tab, and click **Start mic**.
+2. Open the **⚙️ Stage &amp; App** tab, then set **Background color** to **Pure green (for OBS)** or **Transparent (no background)**.
+3. Press **`H`** (or click the **`⇥`** icon in the top-right corner) to hide the studio control panel — leaving a 100% clean stage with no edge shadows.
+4. In **OBS Studio**:
+   - Add **Sources → Window Capture** → select **`[kiratuber.exe]: KiraTuber`**.
+   - If using a green background: right-click the source → **Filters → `+` Chroma Key** (*Key Color Type: Green*).
+   - If using a transparent background: enable *Allow Transparency* on capture sources that support alpha transparency.
+
+### Using Your Avatar as a Camera in Discord / Zoom / Meet
+1. Set up your avatar scene in **OBS Studio** following the steps above.
+2. Click **Start Virtual Camera** in OBS Studio.
+3. In **Discord → User Settings → Voice &amp; Video → Camera**, select **OBS Virtual Camera**.
 
 ---
 
-## ⌨️ Pintasan Keyboard Bawaan
+## ⌨️ Default Keyboard Shortcuts
 
-Semua *hotkey* di bawah ini dapat diganti sesuka hati cukup dengan mengeklik tombol *keycap* di sebelah pengaturannya:
+Every hotkey below can be freely customized at any time — simply click the *keycap* button next to its setting and press a new key:
 
-| Tombol Bawaan | Fungsi |
+| Default Key | Action |
 | :---: | :--- |
-| `H` | Sembunyikan / tampilkan panel studio (mode bersih untuk OBS) |
-| `Q` `W` `E` `R` | Ganti cepat karakter aktif (Slot Karakter 1 – 4) |
-| `Z` `X` `C` `V` `B` `N` | Aktifkan / matikan Ekspresi 1 – 6 |
-| `1` – `9` | Jalankan Gerakan Spesial 1 – 9 (*Lompat*, *Goyang*, *Putar*, *Menari*, dll.) |
-| `Ctrl + O` | **Kembali normal** (hentikan ekspresi &amp; gerakan spesial seketika) |
+| `H` | Hide / show the studio panel (clean stage mode for OBS) |
+| `Q` `W` `E` `R` | Quick-switch active avatar (Character Slots 1 – 4) |
+| `Z` `X` `C` `V` `B` `N` | Toggle Emotes / Expressions 1 – 6 |
+| `1` – `9` | Trigger Special Movements 1 – 9 (*Jump*, *Sway*, *Spin Twice*, *Dance*, etc.) |
+| `Ctrl + O` | **Return to normal** (instantly stop active expressions &amp; special movements) |
 
 ---
 
-## 🛠️ Membangun dari Kode Sumber
+## 🛠️ Building from Source
 
-### Struktur Proyek
+### Project Structure
 ```text
 KiraTuber/
 ├── src/
-│   └── index.html          # Seluruh UI, engine audio WebAudio, & animasi 60FPS (zero external deps)
+│   └── index.html          # Complete UI, WebAudio engine, & 60 FPS animations (zero external deps)
 ├── src-tauri/
-│   ├── src/main.rs         # Backend Rust Tauri v2 (kontrol jendela Win32 DWM & izin mikrofon)
-│   ├── capabilities/       # Konfigurasi izin keamanan jendela Tauri v2
-│   └── tauri.conf.json     # Konfigurasi jendela transparan, ikon, & bundel aplikasi
-├── docs/                   # Aset ilustrasi & pratinjau dokumentasi
-└── DESIGN.md               # Dokumentasi sistem desain Anime Broadcast HUD
+│   ├── src/main.rs         # Tauri v2 Rust backend (Win32 DWM window control & mic permissions)
+│   ├── capabilities/       # Tauri v2 window security capability definitions
+│   └── tauri.conf.json     # Transparent window, app icons, & bundle configuration
+├── docs/                   # Documentation illustrations & preview assets
+└── DESIGN.md               # Anime Broadcast HUD design system documentation
 ```
 
-### Prasyarat &amp; Perintah Build
-1. Pasang [Node.js](https://nodejs.org/) (v20+) dan [Rust](https://rustup.rs/).
-   - **Windows:** Pastikan *Microsoft C++ Build Tools* &amp; *WebView2* terpasang.
+### Prerequisites &amp; Build Commands
+1. Install [Node.js](https://nodejs.org/) (v20+) and [Rust](https://rustup.rs/).
+   - **Windows:** Make sure *Microsoft C++ Build Tools* &amp; *WebView2* are installed.
    - **Linux (Debian/Ubuntu):**
      ```bash
      sudo apt update
      sudo apt install -y libwebkit2gtk-4.1-dev build-essential curl wget file libxdo-dev libssl-dev libayatana-appindicator3-dev librsvg2-dev patchelf
      ```
-2. Jalankan mode pengembangan atau buat paket rilis:
+2. Run in development mode or build production installers:
    ```bash
    npm install
-   npm run dev     # Menjalankan mode pengembangan
-   npm run build   # Membuat paket rilis produksi
+   npm run dev     # Start development mode
+   npm run build   # Build production release packages
    ```
 
 ---
 
 <details>
-<summary><strong>🌐 English Overview &amp; Quick Start (Click to Expand)</strong></summary>
+<summary><strong>🇮🇩 Ringkasan Bahasa Indonesia &amp; Mulai Cepat (Klik untuk Membuka)</strong></summary>
 
 <br>
 
-**KiraTuber** is an ultra-lightweight, zero-bloat 2D **Anime PNGTuber Broadcast Studio** built with **Rust** and **Tauri v2**. Designed for VTubers, gamers, and streamers who want a responsive voice-reactive avatar without heavy webcam face-tracking CPU/GPU overhead.
+**KiraTuber** adalah aplikasi **Anime PNGTuber Broadcast Studio** 2D super ringan tanpa *bloatware* yang dibangun dengan **Rust** dan **Tauri v2**. Dirancang untuk VTuber, *gamer*, dan *streamer* yang menginginkan avatar reaktif suara secara responsif tanpa beban CPU/GPU dari *face-tracking* kamera.
 
-### Key Highlights
-- **Tiny Footprint:** ~1.1 MB installer, GPU-composited 60 FPS animations, and single-transaction IndexedDB asset storage.
-- **3-Pose Avatar Engine:** Supports **Idle**, **Auto-Blink** (with natural non-robotic random intervals &amp; occasional double-blinks), and **Talking** sprites, plus smooth idle breathing and left-right sway.
-- **OBS Fullscreen Game Anti-Freeze:** Configured to keep animating smoothly in OBS Window Capture even when occluded behind fullscreen games.
-- **Stream-Deck Style Emotes &amp; Motions:** 6 custom-icon expression slots + 9 procedural stage motions triggered by customizable hotkeys.
-- **Full English Support:** Switch the entire UI to **English** anytime under **⚙️ Stage &amp; App → Theme &amp; language**.
+### Keunggulan Utama
+- **Ukuran Ekstra Ringan:** Installer hanya ~1.1 MB, animasi 60 FPS berbasis komposisi GPU, serta penyimpanan aset transaksi tunggal di IndexedDB.
+- **Sistem Avatar 3 Pose:** Mendukung gambar **Diam**, **Kedip Otomatis** (dengan jeda acak alami anti-kaku &amp; *double-blink* sesekali), dan **Bicara**, lengkap dengan gerakan napas serta goyang halus.
+- **Anti-Freeze OBS Saat Game Fullscreen:** Dioptimalkan agar animasi tetap berjalan mulus di OBS Window Capture meskipun jendela aplikasi tertutup oleh *game fullscreen*.
+- **Dek Ekspresi &amp; Gerakan Spesial:** 6 slot ekspresi berikon emoji kustom + 9 gerakan panggung prosedural dengan *hotkey* yang bebas diatur.
+- **Dukungan Bahasa Indonesia Penuh:** Ubah bahasa antarmuka kapan saja melalui menu **⚙️ Stage &amp; App → Theme &amp; language**.
 
 </details>
 
 ---
 
 <div align="center">
-  <sub>Dibuat dengan ✦ menggunakan <strong>Rust &amp; Tauri v2</strong> · Dirilis di bawah <a href="LICENSE">Lisensi MIT</a></sub>
+  <sub>Built with ✦ using <strong>Rust &amp; Tauri v2</strong> · Released under the <a href="LICENSE">MIT License</a></sub>
 </div>
